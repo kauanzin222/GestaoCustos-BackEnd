@@ -2,11 +2,23 @@ package com.gestaocustos.gestpro.models;
 
 import java.time.LocalDate;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="TBL_ABASTECIMENTO")
 public class Abastecimento {
+
+    @Id
     private int id;
+    
+    @ManyToOne
+    private Posto posto;
+    
     private double price;
     private LocalDate date;
-    private Posto posto;
     private boolean statusPay;
     
     // Constructor 

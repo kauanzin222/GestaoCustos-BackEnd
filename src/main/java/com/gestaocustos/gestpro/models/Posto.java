@@ -1,7 +1,16 @@
 package com.gestaocustos.gestpro.models;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="TBL_POSTO")
 public class Posto {
+
+    @Id
     private int id;
+    
     private String name;
     
     // Constructor
