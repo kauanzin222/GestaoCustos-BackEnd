@@ -25,7 +25,7 @@ public class PostoController {
     @Autowired
     public PostoService postoService;
 
-    @PostMapping("Postos")
+    @PostMapping("postos")
     public ResponseEntity<Posto> save(@RequestBody Posto posto) {
         posto = postoService.save(posto);
 
@@ -38,24 +38,24 @@ public class PostoController {
         return ResponseEntity.created(location).body(posto);
     }
 
-    @GetMapping("Postos")
+    @GetMapping("postos")
     public List<Posto> getPostos() {
         return postoService.getAll();
     }
 
-    @GetMapping("Postos/{id}")
+    @GetMapping("postos/{id}")
     public ResponseEntity<Posto> getPosto(@PathVariable int id) {
         Posto posto = postoService.getById(id);
         return ResponseEntity.ok(posto);
     }
 
-    @DeleteMapping("Postos/{id}")
+    @DeleteMapping("postos/{id}")
     public ResponseEntity<Void> deletePosto(@PathVariable int id) {
         postoService.deleteById(id);
         return ResponseEntity.noContent().build();
     }
 
-    @PutMapping("Postos/{id}")
+    @PutMapping("postos/{id}")
     public ResponseEntity<Void> updatePosto(@PathVariable int id, @RequestBody Posto postoUpdate) {
         postoService.update(id, postoUpdate);
         return ResponseEntity.ok().build();

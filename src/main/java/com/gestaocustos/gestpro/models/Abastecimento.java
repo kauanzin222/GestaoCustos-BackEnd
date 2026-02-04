@@ -28,17 +28,6 @@ public class Abastecimento {
     public Abastecimento() {
     }
 
-    // Constructor
-    public Abastecimento(int id, double price, LocalDate date, Posto posto, boolean statusPay) {
-        System.out.println("Construindo um abastecimento!");
-
-        this.id = id;
-        this.price = price;
-        this.date = date;
-        this.posto = posto;
-        this.statusPay = statusPay;
-    }
-
     public int getId() {
         return id;
     }

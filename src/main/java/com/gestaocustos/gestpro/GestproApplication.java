@@ -9,5 +9,4 @@ public class GestproApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GestproApplication.class, args);
 	}
-
 }

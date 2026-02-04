@@ -20,14 +20,6 @@ public class Posto {
     public Posto() {
     }
 
-    // Constructor
-    public Posto(int id, String name) {
-        System.out.println("Construindo um Posto");
-
-        this.id = id;
-        this.name = name;
-    }
-
     public int getId() {
         return id;
     }
