@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 @RestController
 @CrossOrigin
@@ -60,4 +62,10 @@ public class AbastecimentoController {
         abastecimentoService.update(id, abastecimentoUpdate);
         return ResponseEntity.ok().build();
     }
+
+    @GetMapping("abastecimentos/filterByPosto")
+    public List<Abastecimento> searchByPosto(@RequestParam int id) {
+        return abastecimentoService.findAbasecimentoByPosto(id);
+    }
+    
 }

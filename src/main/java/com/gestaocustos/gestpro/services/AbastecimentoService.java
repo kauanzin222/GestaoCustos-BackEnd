@@ -52,4 +52,9 @@ public class AbastecimentoService {
 
         abastecimentoRepo.save(abastecimento);
     }
+
+    public List<Abastecimento> findAbasecimentoByPosto(int id) {
+        Posto posto = postoService.getById(id);
+        return abastecimentoRepo.findByPosto(posto);
+    }
 }
