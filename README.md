@@ -2,7 +2,7 @@
 
 Este repositório contém o backend para o projeto de Gestão de Custos. O objetivo da aplicação é auxiliar no controle financeiro, com foco inicial nas necessidades de um escritório de caminhoneiro.
 
-Este projeto trabalha em conjunto com o frontend disponível em: [GestaoCustosPessoal-FrontEnd](https://github.com/kauanzin222/GestaoCustos-FrontEnd.git).
+Este projeto trabalha em conjunto com o frontend disponível em: [GestaoCustos-FrontEnd](https://github.com/kauanzin222/GestaoCustos-FrontEnd.git).
 
 ## Status do Projeto
 🚧 Em desenvolvimento 🚧
