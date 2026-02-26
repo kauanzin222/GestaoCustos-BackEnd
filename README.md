@@ -13,7 +13,7 @@ Para a experiência completa, utilize este BackEnd em conjunto com o:
 ---
 
 ## 📊 Status do Projeto
-![Status](https://img.shields.io)
+![Status](https://img.shields.io/badge/Status-Andamento-yellow)
 
 > 💡 **Nota de Estudo:** Este projeto funciona como um laboratório prático para a aplicação de conceitos de arquitetura, padrões de design e boas práticas de desenvolvimento.
 
@@ -27,7 +27,3 @@ O sistema já conta com o gerenciamento de:
 
 ---
 
-## ⚙️ Tecnologias Sugeridas (Opcional)
-*Caso queira listar seu stack, use o modelo abaixo:*
-- **Linguagem:** [Sua Linguagem]
-- **Banco de Dados:** [Seu Banco]
