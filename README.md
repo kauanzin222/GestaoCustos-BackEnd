@@ -1,15 +1,33 @@
-# GestaoCustosPessoal-BackEnd
+# 🚛 Gestão de Custos Pessoal - BackEnd
 
-Este repositório contém o backend para o projeto de Gestão de Custos. O objetivo da aplicação é auxiliar no controle financeiro, com foco inicial nas necessidades de um escritório de caminhoneiro.
+> **Controle financeiro inteligente focado na logística de transporte.**
 
-Este projeto trabalha em conjunto com o frontend disponível em: [GestaoCustos-FrontEnd](https://github.com/kauanzin222/GestaoCustos-FrontEnd.git).
+Este repositório hospeda a API de suporte ao sistema de **Gestão de Custos**. Desenvolvido inicialmente para suprir as demandas administrativas de um escritório de caminhoneiro, o projeto foca em escalabilidade e regras de negócio sólidas.
 
-## Status do Projeto
-![Status](https://img.shields.io/badge/Status-Andamento-yellow)
+---
 
-Este projeto é parte de um processo de aprendizado sobre conceitos, regras de negócio e melhores práticas de desenvolvimento de software.
+## 🔗 Ecossistema
+Para a experiência completa, utilize este BackEnd em conjunto com o:  
+👉 **[GestaoCustos-FrontEnd](https://github.com)**
 
-## Funcionalidades Atuais
-Atualmente, o sistema permite o cadastro e gerenciamento de:
-- **Postos**: Cadastro de postos de combustível.
-- **Abastecimentos**: Registro de abastecimentos realizados nos postos.
+---
+
+## 📊 Status do Projeto
+![Status](https://img.shields.io)
+
+> 💡 **Nota de Estudo:** Este projeto funciona como um laboratório prático para a aplicação de conceitos de arquitetura, padrões de design e boas práticas de desenvolvimento.
+
+---
+
+## 🛠️ Funcionalidades Atuais
+O sistema já conta com o gerenciamento de:
+
+*   **⛽ Postos:** Cadastro detalhado de parceiros e postos de combustível.
+*   **🛣️ Abastecimentos:** Registro preciso de consumos e transações realizadas.
+
+---
+
+## ⚙️ Tecnologias Sugeridas (Opcional)
+*Caso queira listar seu stack, use o modelo abaixo:*
+- **Linguagem:** [Sua Linguagem]
+- **Banco de Dados:** [Seu Banco]
