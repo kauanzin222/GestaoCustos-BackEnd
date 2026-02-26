@@ -5,7 +5,7 @@ Este repositório contém o backend para o projeto de Gestão de Custos. O objet
 Este projeto trabalha em conjunto com o frontend disponível em: [GestaoCustos-FrontEnd](https://github.com/kauanzin222/GestaoCustos-FrontEnd.git).
 
 ## Status do Projeto
-🚧 Em desenvolvimento 🚧
+![Status](https://img.shields.io/badge/Status-Andamento-yellow)
 
 Este projeto é parte de um processo de aprendizado sobre conceitos, regras de negócio e melhores práticas de desenvolvimento de software.
 
